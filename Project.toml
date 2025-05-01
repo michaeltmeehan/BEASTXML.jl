@@ -1,0 +1,13 @@
+name = "BEASTXML"
+uuid = "05c224f8-0938-40b7-8356-d159201bf633"
+authors = ["Michael Meehan"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.11.3"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
